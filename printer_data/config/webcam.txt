@@ -1,0 +1,17 @@
+# Define the webcam stream URL
+camera_url="http://192.168.0.30:8085/"
+
+# Define the stream type (usually mjpeg for most setups)
+camera_http_options="-n -o /dev/null"
+
+# Additional camera options (you can tweak these based on your needs)
+camera_options=""
+
+# Optional: Adjust the frame rate, resolution, etc.
+# camera_resolution="640x480"
+# camera_fps="30"
+
+# For MJPEG streaming
+stream_type = mjpeg
+stream_port = 8085
+stream_url = http://localhost:8085/
